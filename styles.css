@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid #ddd;
+
+}
+
+nav a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s;
+  padding: 3px;
+
+}
+nav a:hover {
+  color: #4CAF50;
+}
+ .tituloprincipal a{
+  text-decoration: none;
+  color: #43a047;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.descripcion {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 28px;
+  color: #333;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+tr th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+
+ tr:hover {
+  background-color: #f0f9f0;
+}
+
+ tr td {
+  padding: 10px 12px;
+}
+
+ tr td:first-child {
+  width: 60px;
+  color: #555;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+ tr td a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+ tr td a:hover {
+  color: #4CAF50;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.redes{
+  text-align: center;
+   justify-content: space-between;
+
+}
+.logo a{
+  text-decoration: none;
+  color: #4CAF50;
+}
+.reproductor-titulo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.reproductor-contenedor {
+  background-color: #e8e8e8;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.reproductor-pantalla {
+  background-color: #000;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.reproductor-boton-play {
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 64px;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+  line-height: 1;
+}
+
+.reproductor-boton-play:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+.reproductor-acciones {
+  padding: 12px 12px 0 12px;
+}
+
+.reproductor-recargar {
+  width: 100%;
+  padding: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.reproductor-recargar:hover {
+  background-color: #43a047;
+}
+@media (max-width: 555px) {
+    .canales{
+        display: none !important;
+    }
+}
+        .bodylogin{
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+
+        .login-container h2 {
+            color: #2e7d32; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50; 
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-btn{
+           font-size: 16px;
+           color: white;
+        }
+
+        .login-btn:hover {
+            background-color: #388e3c;
+        }
+    

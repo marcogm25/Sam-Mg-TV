@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bodylogin">
+    <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form action="pag-principal.html">
+        <div class="input-group">
+            <label for="username">Usuario</label>
+            <div>
+            <input type="text"name="username" required placeholder="Nombre y Apellido">
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="password">Codigo de invitación</label>
+            <input type="text"name="code-entrar" required placeholder="V4L3NS5S...." pattern="[A-Z0-9]{8}">
+        </div>
+        <button type="submit" class="login-btn">Entrar</button>
+    </form>
+</div>
+
+</body>
+</html>
